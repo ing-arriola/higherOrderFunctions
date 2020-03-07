@@ -124,6 +124,8 @@ const autos = [
 	{ marca: 'Audi', modelo: 'A4', year: 2016, precio: 30000, puertas: 4, color: 'Azul', transmision: 'automatico' }
 ];
 
+console.table(autos)
+
 // forEach
 
 // map
