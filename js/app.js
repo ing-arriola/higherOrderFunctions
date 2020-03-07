@@ -124,10 +124,15 @@ const autos = [
 	{ marca: 'Audi', modelo: 'A4', year: 2016, precio: 30000, puertas: 4, color: 'Azul', transmision: 'automatico' }
 ];
 
-console.table(autos)
+//console.table(autos)
 
 // forEach
-
+//Use this method when you need to go through all the elements of an array
+let results=[]
+autos.forEach(element => {
+	if (element.color==='Rojo'){results.push(element)}
+	});
+console.log(results)
 // map
 
 // filter
