@@ -152,7 +152,14 @@ console.log(resultsFilterColor)
 let resultsFind=autos.find(car=> car.color === 'Rojo')
 console.log(resultsFind)
 // reduce
+//This method can access to all the elements of an array and reduces all of them in only one element
+//For example it could be a sum of all the elements
 let resultsReduce=autos.reduce((total,auto)=>total+auto.precio,0
 )
 console.log(`Total al sumar todos los vehiculos: ${resultsReduce}`)
 // some
+//This method is pretty similar to find and to filter BUT!!! .... this method only return TRUE
+//or FALSE... let's say that we want to know if there is a car of color RED... then use some and
+//The answer could be TRUE or FALSE... but this method not say more.... so it could be useful but depends on the situation
+let resultsSome=autos.some(car=> car.color==='Rojo')
+console.log(`Is there at least one red car?: ${resultsSome}`)  
