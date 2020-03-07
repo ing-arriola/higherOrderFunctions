@@ -139,7 +139,12 @@ console.log(results)
 let resultsMap=autos.map(element => element)//Here there is no any return because an arrow function has implicit the RETURN
 console.log(resultsMap)
 // filter
-
+//This function is really beatiful when you need to filter elements from an array, additionally
+//filter creates a new array with the elements that meets the conditions given
+let resultsFilter=autos.filter(car=> car.marca==='BMW')
+let resultsFilterColor=autos.filter(car => car.color === 'Rojo')
+console.log(resultsFilter)
+console.log(resultsFilterColor)
 // find
 
 // reduce
