@@ -146,7 +146,11 @@ let resultsFilterColor=autos.filter(car => car.color === 'Rojo')
 console.log(resultsFilter)
 console.log(resultsFilterColor)
 // find
-
+//This method is similar to filter ...BUT!!! is not the same, because when you use filter, you get
+//All the elements in an array that meets a conditions... by the other hand find only returns the
+//first element in an array that meets the specified conditions
+let resultsFind=autos.find(car=> car.color === 'Rojo')
+console.log(resultsFind)
 // reduce
 
 // some
