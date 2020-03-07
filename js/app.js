@@ -134,7 +134,10 @@ autos.forEach(element => {
 	});
 console.log(results)
 // map
-
+//This method create a new array from another, but if you try to use like a filter...
+//may be it could give you some erros, if you want to use this method it would better to mix it with React
+let resultsMap=autos.map(element => element)//Here there is no any return because an arrow function has implicit the RETURN
+console.log(resultsMap)
 // filter
 
 // find
@@ -142,5 +145,3 @@ console.log(results)
 // reduce
 
 // some
-
-
