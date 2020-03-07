@@ -152,5 +152,7 @@ console.log(resultsFilterColor)
 let resultsFind=autos.find(car=> car.color === 'Rojo')
 console.log(resultsFind)
 // reduce
-
+let resultsReduce=autos.reduce((total,auto)=>total+auto.precio,0
+)
+console.log(`Total al sumar todos los vehiculos: ${resultsReduce}`)
 // some
